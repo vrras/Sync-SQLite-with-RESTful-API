@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SyncSQLitewithRESTfulAPI.iml" filepath="$PROJECT_DIR$/SyncSQLitewithRESTfulAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-android-Offline-to-Online--master.iml" filepath="$PROJECT_DIR$/data-android-Offline-to-Online--master.iml" />
     </modules>
   </component>
 </project>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   android:orientation="vertical"
-    tools:context="info.blogbasbas.fromoflinetoonline.MainActivity">
+    tools:context="com.firastech.syncsqlitewithrestfulapi.ui.main.MainActivity">
 
     <LinearLayout
+        android:id="@+id/ly_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -30,8 +29,19 @@
 
     <ListView
         android:id="@+id/listViewNames"
+        android:layout_above="@+id/btnDelete"
+        android:layout_below="@id/ly_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></ListView>
 
+    <Button
+        android:id="@+id/btnDelete"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Delete All"
+        android:clickable="true" />
 
-</LinearLayout>
+</RelativeLayout>
